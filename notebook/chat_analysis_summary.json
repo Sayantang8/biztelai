@@ -1,0 +1,23 @@
+{
+  "total_messages": 11760,
+  "messages_per_agent": {
+    "agent_1": 6068,
+    "agent_2": 5692
+  },
+  "avg_length_per_agent": {
+    "agent_1": 98.89881344759394,
+    "agent_2": 106.50035137034435
+  },
+  "sentiment_distribution_textblob": {
+    "Positive": 5893,
+    "Neutral": 4525,
+    "Negative": 1342
+  },
+  "sentiment_distribution_vader": {
+    "Positive": 8041,
+    "Neutral": 2101,
+    "Negative": 1618
+  },
+  "overall_avg_length": 102.5780612244898,
+  "sentiment_correlation": 0.49488581697737677
+}

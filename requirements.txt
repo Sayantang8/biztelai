@@ -1,0 +1,58 @@
+# Core Web App
+fastapi==0.115.14
+uvicorn[standard]==0.34.3
+pydantic==2.11.7
+python-dotenv>=0.19.0
+
+# Data Processing
+pandas==2.3.0
+numpy==1.26.4
+
+# NLP
+spacy==3.6.1
+textblob==0.19.0
+scikit-learn>=0.24.0
+vaderSentiment==3.3.2
+
+# Deep Learning
+torch==2.7.1+cu118
+torchaudio==2.7.1+cu118
+torchvision==0.22.1+cu118
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Transformers & LLM
+transformers==4.53.0
+huggingface-hub==0.33.1
+tokenizers==0.21.2
+langchain==0.3.26
+langchain-core==0.3.66
+
+# Visualization
+matplotlib==3.10.3
+seaborn==0.13.2
+plotly==6.2.0
+
+# Jupyter Environment
+jupyter==1.0.0
+jupyterlab==4.4.3
+ipykernel==6.29.5
+
+# Utilities
+requests==2.32.4
+tqdm==4.67.1
+python-json-logger==3.3.0
+wordcloud==1.9.4
+
+# Data Formats & Processing
+pyarrow==20.0.0
+orjson==3.10.18
+markdown-it-py==3.0.0
+
+# Development Tools
+black>=21.7b0
+flake8>=3.9.0
+pytest>=6.2.0
+
+# Download spaCy model
+# After installing requirements, run:
+# python -m spacy download en_core_web_sm
